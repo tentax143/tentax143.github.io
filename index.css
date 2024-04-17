@@ -127,12 +127,21 @@ li a:hover {
     animation-delay: 1s;
 }
 
-.social {
+.social-container {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
     display: flex;
-    flex-wrap: wrap;
-    gap: 1.4rem;
-    margin-top: 1.4rem;
+    flex-direction: column;
+    align-items: flex-end;
 }
+.social-container .name{
+    margin-top: 1rem;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+
 
 .social a {
     display: grid;
